@@ -44,34 +44,22 @@ type BeforeAfter = {
 
 const beforeAfterGallery: BeforeAfter[] = [
   {
-    title: "Rejuvenecimiento facial",
+    title: "Dermaplaning facial",
     zone: "Rostro completo",
-    beforeSrc: "https://placehold.co/400x500/e8dcc4/9caf88?text=Antes",
-    afterSrc: "https://placehold.co/400x500/9caf88/ffffff?text=Después",
+    beforeSrc: "/images/after-before/one-before.jpeg",
+    afterSrc: "/images/after-before/one-after.jpeg",
   },
   {
-    title: "Definición de contorno",
-    zone: "Papada y cuello",
-    beforeSrc: "https://placehold.co/400x500/e8dcc4/9caf88?text=Antes",
-    afterSrc: "https://placehold.co/400x500/9caf88/ffffff?text=Después",
+    title: "Dermaplaning facial",
+    zone: "Rostro completo",
+    beforeSrc: "/images/after-before/two-before.jpeg",
+    afterSrc: "/images/after-before/two-after.jpeg",
   },
   {
-    title: "Firmeza corporal",
-    zone: "Abdomen",
-    beforeSrc: "https://placehold.co/400x500/e8dcc4/9caf88?text=Antes",
-    afterSrc: "https://placehold.co/400x500/9caf88/ffffff?text=Después",
-  },
-  {
-    title: "Lifting natural",
-    zone: "Pómulos y mejillas",
-    beforeSrc: "https://placehold.co/400x500/e8dcc4/9caf88?text=Antes",
-    afterSrc: "https://placehold.co/400x500/9caf88/ffffff?text=Después",
-  },
-  {
-    title: "Reducción de flacidez",
-    zone: "Brazos",
-    beforeSrc: "https://placehold.co/400x500/e8dcc4/9caf88?text=Antes",
-    afterSrc: "https://placehold.co/400x500/9caf88/ffffff?text=Después",
+    title: "Limpieza facial profunda",
+    zone: "Rostro y cuello",
+    beforeSrc: "/images/after-before/three-before.jpeg",
+    afterSrc: "/images/after-before/three-after.jpeg",
   },
 ];
 
@@ -118,7 +106,7 @@ export function Testimonials() {
   }, []);
 
   return (
-    <section className="bg-white py-20 sm:py-24">
+    <section className="bg-white py-16 sm:py-20">
       <div className="mx-auto max-w-7xl space-y-12 px-6">
         {/* Header */}
         <div className="space-y-3 text-center">

@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="border-t-2 border-beige-light bg-gradient-to-br from-slate-800 to-slate-900 py-16 text-slate-100">
+    <footer className="border-t-2 border-beige-light bg-linear-to-br from-slate-800 to-slate-900 py-16 text-slate-100">
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 text-center text-sm sm:flex-row sm:items-center sm:justify-between sm:text-left">
         <div className="space-y-1">
           <p className="font-display text-base font-semibold text-white">Rafaela Beauty – Centro de estética integral</p>
@@ -17,12 +17,12 @@ export function Footer() {
             WhatsApp: +54 9 11 5643-8476
           </a>
           <a
-            href="https://instagram.com/rafaelabeauty"
+            href="https://instagram.com/rafaela_.beauty"
             target="_blank"
             rel="noreferrer"
             className="block text-white transition hover:text-sage-primary"
           >
-            Instagram (actualizar enlace)
+            Instagram
           </a>
         </div>
       </div>

@@ -19,7 +19,7 @@ export function Differentials() {
               key={item}
               className="flex items-center gap-3 rounded-3xl border-2 border-sage-primary/30 bg-white px-6 py-5 text-base font-medium text-slate-700 shadow-lg shadow-sage-primary/10"
             >
-              <span className="inline-block h-2.5 w-2.5 flex-shrink-0 rounded-full bg-sage-dark"></span>
+              <span className="inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-sage-dark"></span>
               {item}
             </li>
           ))}

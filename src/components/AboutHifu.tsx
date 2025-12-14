@@ -1,6 +1,6 @@
 export function AboutHifu() {
   return (
-    <section className="bg-beige-warm/50 py-20 sm:py-24">
+    <section className="bg-beige-warm/50 py-16 sm:py-20">
       <div className="mx-auto max-w-5xl space-y-8 px-6">
         <h2 className="font-display text-3xl font-bold text-slate-900 sm:text-4xl">¿Qué es el HIFU?</h2>
         <p className="text-lg leading-relaxed text-slate-700 sm:text-xl">

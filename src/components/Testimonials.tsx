@@ -23,27 +23,27 @@ const testimonials: Testimonial[] = [
 
 export function Testimonials() {
   return (
-    <section className="bg-white py-16 sm:py-20">
-      <div className="mx-auto max-w-5xl space-y-6 px-6">
-        <div className="space-y-2">
-          <h2 className="text-2xl font-semibold text-slate-900">Testimonios</h2>
-          <p className="text-sm text-slate-600 sm:text-base">
+    <section className="bg-white py-20 sm:py-24">
+      <div className="mx-auto max-w-6xl space-y-8 px-6">
+        <div className="space-y-3">
+          <h2 className="font-display text-3xl font-bold text-slate-900 sm:text-4xl">Testimonios</h2>
+          <p className="text-base text-slate-600 sm:text-lg">
             Fotos reales del centro y testimonios de pacientes.
-            <span className="block text-xs text-slate-500">
+            <span className="block text-sm text-slate-500">
               Estos testimonios son de ejemplo. Reemplazalos por experiencias reales cuando estén disponibles.
             </span>
           </p>
         </div>
-        <div className="grid gap-4 sm:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-3">
           {testimonials.map((testimonial) => (
             <article
               key={testimonial.name}
-              className="flex h-full flex-col justify-between rounded-3xl border border-slate-100 bg-slate-50 px-6 py-6"
+              className="flex h-full flex-col justify-between rounded-3xl border-2 border-beige-light bg-gradient-to-br from-white to-beige-warm/20 px-7 py-7 shadow-lg"
             >
-              <p className="text-sm leading-relaxed text-slate-700">
-                “{testimonial.message}”
+              <p className="text-base leading-relaxed text-slate-700">
+                "{testimonial.message}"
               </p>
-              <p className="mt-4 text-sm font-semibold text-slate-900">
+              <p className="mt-4 text-sm font-semibold text-sage-dark">
                 {testimonial.name}
               </p>
             </article>

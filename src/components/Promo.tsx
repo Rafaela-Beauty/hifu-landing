@@ -4,35 +4,49 @@ type PromoProps = {
 
 export function Promo({ ctaHref }: PromoProps) {
   return (
-    <section className="bg-white py-16">
-      <div className="mx-auto flex max-w-4xl flex-col gap-6 rounded-3xl border border-emerald-100 bg-emerald-50 px-6 py-10 text-center sm:px-10">
-        <div className="space-y-2">
-          <h2 className="text-2xl font-semibold text-emerald-900">
-            Promo HIFU 2×1 — Vení con quien quieras
-          </h2>
-          <p className="text-base text-emerald-800">
-            Dos personas, misma zona y mismo turno, en jornadas especiales. Una forma inteligente de acceder a tecnología de vanguardia y compartir la experiencia.
+    <section className="relative bg-white py-16 sm:py-20">
+      <div className="mx-auto max-w-4xl px-6">
+        <div className="relative flex flex-col gap-6 rounded-3xl border-4 border-sage-dark bg-gradient-to-br from-beige-warm to-beige-light px-8 py-12 text-center shadow-2xl shadow-sage-primary/20 sm:px-12">
+          <div className="absolute -right-3 -top-3 rotate-12 rounded-full bg-sage-dark px-4 py-2 text-xs font-bold uppercase tracking-wider text-white shadow-lg">
+            Promo Especial
+          </div>
+          <div className="space-y-3">
+            <h2 className="font-display text-3xl font-bold text-sage-dark sm:text-4xl">
+              Promo HIFU 2×1 — Vení con quien quieras
+            </h2>
+            <p className="text-lg leading-relaxed text-slate-800 sm:text-xl">
+              Dos personas, misma zona y mismo turno, en jornadas especiales. Una forma inteligente de acceder a tecnología de vanguardia y compartir la experiencia.
+            </p>
+          </div>
+          <ul className="space-y-3 text-left text-base leading-relaxed text-slate-800">
+            <li className="flex items-start gap-3">
+              <span className="mt-1 inline-block h-2 w-2 flex-shrink-0 rounded-full bg-sage-dark"></span>
+              <span>Jornadas especiales con cupos limitados</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="mt-1 inline-block h-2 w-2 flex-shrink-0 rounded-full bg-sage-dark"></span>
+              <span>Disponibilidad sujeta a la sede elegida</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="mt-1 inline-block h-2 w-2 flex-shrink-0 rounded-full bg-sage-dark"></span>
+              <span>Atención directa con dermocosmiatra matriculada</span>
+            </li>
+          </ul>
+          <div>
+            <a
+              href={ctaHref}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-full bg-sage-dark px-10 py-4 text-base font-semibold text-white shadow-lg shadow-sage-dark/30 transition hover:bg-sage-primary hover:shadow-xl hover:shadow-sage-primary/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sage-dark"
+              aria-label="Consultá disponibilidad para próximas jornadas por WhatsApp"
+            >
+              Consultá disponibilidad para próximas jornadas
+            </a>
+          </div>
+          <p className="text-sm text-slate-600">
+            El valor del tratamiento depende de la zona y la sede.
           </p>
         </div>
-        <ul className="space-y-2 text-left text-sm leading-relaxed text-emerald-900 sm:text-base">
-          <li>• Jornadas especiales con cupos limitados</li>
-          <li>• Disponibilidad sujeta a la sede elegida</li>
-          <li>• Atención directa con dermocosmiatra matriculada</li>
-        </ul>
-        <div>
-          <a
-            href={ctaHref}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center justify-center rounded-full bg-emerald-600 px-8 py-3 text-base font-medium text-white transition hover:bg-emerald-700 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-emerald-600"
-            aria-label="Consultá disponibilidad para próximas jornadas por WhatsApp"
-          >
-            Consultá disponibilidad para próximas jornadas
-          </a>
-        </div>
-        <p className="text-xs text-emerald-900/80">
-          El valor del tratamiento depende de la zona y la sede.
-        </p>
       </div>
     </section>
   );

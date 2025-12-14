@@ -55,10 +55,10 @@ export default function HifuPage() {
       <Script id="schema-local-business" type="application/ld+json">
         {JSON.stringify(localBusinessSchema)}
       </Script>
-      <main className="bg-white text-slate-900">
+      <main className="bg-gradient-to-b from-white to-beige-warm text-slate-900">
         <Hero ctaHref={whatsappLink} />
-        <Authority />
         <Promo ctaHref={whatsappLink} />
+        <Authority />
         <AboutHifu />
         <Locations />
         <Differentials />

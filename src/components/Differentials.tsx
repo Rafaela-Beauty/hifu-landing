@@ -8,17 +8,18 @@ export function Differentials() {
   ];
 
   return (
-    <section className="bg-slate-50 py-16 sm:py-20">
-      <div className="mx-auto max-w-4xl space-y-6 px-6">
-        <h2 className="text-2xl font-semibold text-slate-900">
+    <section className="bg-beige-warm/50 py-20 sm:py-24">
+      <div className="mx-auto max-w-5xl space-y-8 px-6">
+        <h2 className="font-display text-3xl font-bold text-slate-900 sm:text-4xl">
           ¿Por qué elegir Rafaela Beauty?
         </h2>
-        <ul className="grid gap-3 sm:grid-cols-2">
+        <ul className="grid gap-4 sm:grid-cols-2">
           {items.map((item) => (
             <li
               key={item}
-              className="rounded-2xl border border-white bg-white px-5 py-4 text-sm font-medium text-slate-700 shadow-sm shadow-emerald-100"
+              className="flex items-center gap-3 rounded-3xl border-2 border-sage-primary/30 bg-white px-6 py-5 text-base font-medium text-slate-700 shadow-lg shadow-sage-primary/10"
             >
+              <span className="inline-block h-2.5 w-2.5 flex-shrink-0 rounded-full bg-sage-dark"></span>
               {item}
             </li>
           ))}

@@ -1,7 +1,7 @@
 export function Footer() {
   return (
-    <footer className="bg-slate-900 py-12 text-slate-200">
-      <div className="mx-auto flex max-w-5xl flex-col gap-4 px-6 text-center text-sm sm:flex-row sm:items-center sm:justify-between sm:text-left">
+    <footer className="bg-slate-900 py-16 text-slate-200">
+      <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 text-center text-sm sm:flex-row sm:items-center sm:justify-between sm:text-left">
         <div className="space-y-1">
           <p className="font-semibold">Rafaela Beauty – Centro de estética integral</p>
           <p>Tratamientos realizados por profesional capacitada.</p>

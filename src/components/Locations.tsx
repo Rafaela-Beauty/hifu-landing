@@ -6,16 +6,15 @@ export function Locations() {
         <div className="grid gap-6 sm:grid-cols-2">
           <article className="rounded-3xl border border-slate-100 bg-slate-50 px-6 py-6">
             <h3 className="text-xl font-semibold text-slate-900">Capilla del Señor</h3>
-            <ul className="mt-4 space-y-2 text-sm text-slate-700">
-              <li>• HIFU facial</li>
-              <li>• HIFU corporal</li>
-            </ul>
+            <p className="mt-4 text-sm leading-relaxed text-slate-700">
+              HIFU facial y corporal, con aparatología completa en un entorno privado y tranquilo pensado para desconectar.
+            </p>
           </article>
           <article className="rounded-3xl border border-slate-100 bg-slate-50 px-6 py-6">
             <h3 className="text-xl font-semibold text-slate-900">Los Cardales</h3>
-            <ul className="mt-4 space-y-2 text-sm text-slate-700">
-              <li>• HIFU facial</li>
-            </ul>
+            <p className="mt-4 text-sm leading-relaxed text-slate-700">
+              HIFU facial en consultorio a la calle, ideal si querés resultados sin desplazarte lejos de casa.
+            </p>
           </article>
         </div>
         <p className="text-xs text-slate-500 sm:text-sm">

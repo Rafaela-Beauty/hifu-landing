@@ -8,20 +8,20 @@ export function AboutHifu() {
         </p>
         <div className="grid gap-3 sm:grid-cols-2">
           <article className="rounded-2xl border border-white bg-white px-5 py-4 shadow-sm shadow-emerald-100">
-            <p className="text-sm font-semibold text-emerald-900">Mejora la firmeza</p>
-            <p className="text-sm text-slate-600">Optimiza la densidad y tonicidad de la piel.</p>
+            <p className="text-sm font-semibold text-emerald-900">Piel más firme y tonificada</p>
+            <p className="text-sm text-slate-600">Recuperá sostén y textura sin recurrir a técnicas invasivas.</p>
           </article>
           <article className="rounded-2xl border border-white bg-white px-5 py-4 shadow-sm shadow-emerald-100">
-            <p className="text-sm font-semibold text-emerald-900">Reduce flacidez</p>
-            <p className="text-sm text-slate-600">Ayuda a redefinir contornos faciales y corporales.</p>
+            <p className="text-sm font-semibold text-emerald-900">Efecto lifting natural sin cirugía</p>
+            <p className="text-sm text-slate-600">Definí contornos faciales y corporales con un resultado armónico.</p>
           </article>
           <article className="rounded-2xl border border-white bg-white px-5 py-4 shadow-sm shadow-emerald-100">
-            <p className="text-sm font-semibold text-emerald-900">Resultados progresivos</p>
-            <p className="text-sm text-slate-600">Los cambios continúan semanas después del tratamiento.</p>
+            <p className="text-sm font-semibold text-emerald-900">Resultados visibles que mejoran con el tiempo</p>
+            <p className="text-sm text-slate-600">El estímulo de colágeno continúa trabajando semanas después.</p>
           </article>
           <article className="rounded-2xl border border-white bg-white px-5 py-4 shadow-sm shadow-emerald-100">
-            <p className="text-sm font-semibold text-emerald-900">Procedimiento no invasivo</p>
-            <p className="text-sm text-slate-600">Sin tiempo de recuperación, ideal para agendas intensas.</p>
+            <p className="text-sm font-semibold text-emerald-900">Procedimiento no invasivo y sin recuperación</p>
+            <p className="text-sm text-slate-600">Terminá la sesión y seguí con tu día sin pausas.</p>
           </article>
         </div>
       </div>

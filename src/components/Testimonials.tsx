@@ -44,6 +44,18 @@ type BeforeAfter = {
 
 const beforeAfterGallery: BeforeAfter[] = [
   {
+    title: "HIFU facial",
+    zone: "Rostro completo",
+    beforeSrc: "/images/after-before/hifu-one-before.jpeg",
+    afterSrc: "/images/after-before/hifu-one-after.jpeg",
+  },
+  {
+    title: "HIFU facial",
+    zone: "Rostro completo",
+    beforeSrc: "/images/after-before/hifu-two-before.jpeg",
+    afterSrc: "/images/after-before/hifu-two-after.jpeg",
+  },
+  {
     title: "Dermaplaning facial",
     zone: "Rostro completo",
     beforeSrc: "/images/after-before/one-before.jpeg",

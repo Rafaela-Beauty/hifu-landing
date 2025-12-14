@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Rafaela Beauty",
   description:
     "Centro de estética integral especializado en tratamientos HIFU en Exaltación de la Cruz.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
